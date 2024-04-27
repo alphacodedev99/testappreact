@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-// pages
+
 import Pocetna from './pages/Pocetna.jsx'
 import Kontakt from './pages/Kontakt.jsx'
 import Usluge from './pages/Usluge.jsx'
@@ -15,17 +15,13 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Pocetna />,
-      },
-      {
-        path: '/usluge',
-        element: <Usluge />,
+        element: <Pocetna />
       },
       {
         path: '/kontakt',
-        element: <Kontakt />,
+        element: <Kontakt />
       }
-    ],
+    ]
   }
 ])
 
