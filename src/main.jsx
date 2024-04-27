@@ -6,11 +6,9 @@ import './index.css';
 import Pocetna from './pages/Pocetna.jsx'
 import Kontakt from './pages/Kontakt.jsx'
 import Usluge from './pages/Usluge.jsx'
+
 // router
-import {
-	RouterProvider,
-	createBrowserRouter,
-} from 'react-router-dom';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 const router = createBrowserRouter([
 	{
